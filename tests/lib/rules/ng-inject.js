@@ -26,6 +26,7 @@ ruleTester.run("translation-key-for-notification", rule, {
         "angular.module('app', []).controller('ctrl', ['$scope', function($scope) {}]);",
         "angular.module('app', []).controller('ctrl', /* @ngInject */ function($scope) {});",
         "angular.module('app', []).controller('ctrl', Ctrl); /* @ngInject */ function Ctrl() {}",
+        "var app = notAngular.module('app', []); app.controller('ctrl', ['$scope', function($scope) {}]);",
         "var app = angular.module('app', []); app.controller('ctrl', ['$scope', function($scope) {}]);",
         "var app = angular.module('app', []); app.controller('ctrl', /* @ngInject */ function($scope) {});",
         "var app = angular.module('app', []); app.controller('ctrl', Ctrl); /* @ngInject */ function Ctrl() {}",
