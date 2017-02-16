@@ -25,7 +25,7 @@
   "devDependencies": {
     "eslint": "^3.8.0",
     "eslint-config-eslint": "^3.0.0",
-    "eslint-plugin-node": "^2.1.2",
+    "eslint-plugin-node": "^4.0.1",
     "mocha": "^3.1.0"
   },
   "peerDependencies": {
